@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: lightblue;
+    padding: 20px;
+
+}
+input{
+    height: 50px;
+    width: 250px;
+    background-color: antiquewhite;
+    color: white;
+    
+}
+::placeholder{
+    padding: 20px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    
+}
+input:hover{
+    background-color: rgb(171, 211, 249);
+}
+#add{
+    height: 50px;
+    width: 80px;
+    font-size: 18px;
+    background-color: palegreen;
+    cursor: pointer;
+}
+#add:hover{
+    background-color: green;
+    color: white;
+    transform: scale(0.9);
+
+}
+h2{
+    font-size: 36px;
+    padding: 20px;
+}
+#clearall{
+    padding: 20px;
+    background-color: palegreen;
+    font-weight: bold;
+    font-size: 18px;
+}
+#clearall:hover{
+    background-color: green;
+    color: white;
+    transform: scale(0.9);
+
+}
+li{
+    font-size: 14px;
+    padding: 10px;
+}
